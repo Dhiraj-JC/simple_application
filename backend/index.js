@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 // enabling CORS for all requests
-//app.use(cors());
+app.use(cors());
 
 // defining an endpoint to return all users
 app.get('/users', (req, res) => {
